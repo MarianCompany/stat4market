@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Stat4Market</title>
+    <link rel="icon" href="img/favicon.ico">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
@@ -30,15 +31,26 @@
                     </div>
                 </div>
                 <div class="nav__wrap nav__menu">
-                    <a href="#" class="menu__el menu__el_triangle link nav__link text">
+                    <div class="menu__el menu__link menu__el_triangle link nav__link text">
                         Аналитика
                         <span class="symbol__wrap">
                         <svg class="symbol__triangle_down">
                             <use xlink:href="img/icons/sprite.svg#triangle"></use>
                         </svg>
                     </span>
-                    </a>
-                    <a href="#" class="menu__el link nav__link text">Обучение</a>
+                        <div class="menu">
+                            <div class="menu__block">
+                                <p class="menu__text">Lorem1</p>
+                            </div>
+                            <div class="menu__block">
+                                <p class="menu__text">Lorem ipsum2</p>
+                            </div>
+                            <div class="menu__block">
+                                <p class="menu__text">Lorem3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu__el link nav__link text">Обучение</div>
                 </div>
                 <div class="nav__wrap nav__end">
                     <div class="nav__block phone__wrap">
@@ -64,6 +76,44 @@
                     </div>
                 </div>
             </nav>
+
+            <div class="burger__menu-wrap">
+                <aside class="burger__menu">
+                    <img src="img/header__logo.png" alt="">
+
+                    <div class="menu__block burger__menu-block">
+                        <div class="menu__el menu__link menu__el_triangle link nav__link text">
+                            Аналитика
+                            <span class="symbol__wrap">
+                        <svg class="symbol__triangle_down">
+                            <use xlink:href="img/icons/sprite.svg#triangle"></use>
+                        </svg>
+                    </span>
+                            <div class="menu">
+                                <div class="menu__block">
+                                    <p class="menu__text">Lorem1</p>
+                                </div>
+                                <div class="menu__block">
+                                    <p class="menu__text">Lorem ipsum2</p>
+                                </div>
+                                <div class="menu__block">
+                                    <p class="menu__text">Lorem3</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu__block burger__menu-block">
+                        <div class="menu__el link nav__link text">Обучение</div>
+                    </div>
+                    <div class="menu__block burger__menu-block">
+                        <svg class="symbol__phone">
+                            <use xlink:href="img/icons/sprite.svg#phone"></use>
+                        </svg>
+                        <a href="tel:+84994503141" class="link nav__link phone__link text">8 (499) 450-31-41</a>
+                    </div>
+                </aside>
+            </div>
+
             <div class="crumbs">
                 <ul itemscope itemtype="https://schema.org/BreadcrumbList" class="crumbs__list">
                     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="crumbs__el">
@@ -207,4 +257,8 @@
     </main>
 
 </body>
+
+<script src="js/jquery-3.6.0.js"></script>
+<script src="js/main.js"></script>
+
 </html>
