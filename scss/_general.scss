@@ -1,0 +1,251 @@
+@import 'fonts';
+@import "variables";
+
+picture img {
+  width: 100%;
+}
+
+.link {
+  color: $text__color;
+  fill: $text__color;
+  text-decoration: none;
+  transition: 0.25s color, 0.25s fill;
+
+
+  &:hover {
+    color: lighten($text__color, 35);
+    fill: lighten($text__color, 35);
+  }
+}
+
+h1 {
+  font-family: LatoBold,sans-serif;
+  font-size: 56px;
+  line-height: 80px;
+}
+
+h2 {
+  font-family: LatoBold,sans-serif;
+  font-size: 48px;
+  line-height: 64px;
+}
+
+h3 {
+  font-family: LatoSemiBold,sans-serif;
+  font-size: 42px;
+  line-height: 55px;
+}
+
+h4 {
+  font-family: LatoSemiBold,sans-serif;
+  font-size: 35px;
+  line-height: 45px;
+}
+
+h5 {
+  font-family: LatoSemiBold,sans-serif;
+  font-size: 24px;
+  line-height: 150%;
+}
+
+h6 {
+  font-family: LatoSemiBold,sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.text {
+  color: rgba(51, 26, 47, 0.8);
+  font-family: LatoRegular,sans-serif;
+  font-size: 25px;
+  line-height: 160%;
+}
+
+@media(max-width: 1600px){
+  h1 {
+    font-family: LatoBold,sans-serif;
+    font-size: 50px;
+    line-height: 65px;
+  }
+
+  h2 {
+    font-family: LatoBold,sans-serif;
+    font-size: 44px;
+    line-height: 50px;
+  }
+
+  h3 {
+    font-family: LatoSemiBold,sans-serif;
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  h4 {
+    font-family: LatoSemiBold,sans-serif;
+    font-size: 32px;
+    line-height: 45px;
+  }
+
+  h5 {
+    font-family: LatoSemiBold,sans-serif;
+    font-size: 22px;
+    line-height: 150%;
+  }
+
+  h6 {
+    font-family: LatoSemiBold,sans-serif;
+    font-size: 17px;
+    line-height: 150%;
+  }
+
+  .text {
+    color: rgba(51, 26, 47, 0.8);
+    font-family: LatoRegular,sans-serif;
+    font-size: 20px;
+    line-height: 160%;
+  }
+}
+
+@media(max-width: 1400px){
+  h1 {
+    font-family: LatoBold,sans-serif;
+    font-size: 47px;
+    line-height: 65px;
+  }
+
+  h2 {
+    font-family: LatoBold,sans-serif;
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  h3 {
+    font-family: LatoSemiBold,sans-serif;
+    font-size: 39px;
+    line-height: 55px;
+  }
+
+  h4 {
+    font-family: LatoSemiBold,sans-serif;
+    font-size: 31px;
+    line-height: 45px;
+  }
+
+  h5 {
+    font-family: LatoSemiBold,sans-serif;
+    font-size: 21px;
+    line-height: 150%;
+  }
+
+  h6 {
+    font-family: LatoSemiBold,sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .text {
+    color: rgba(51, 26, 47, 0.8);
+    font-family: LatoRegular,sans-serif;
+    font-size: 18px;
+    line-height: 160%;
+  }
+}
+
+@media(max-width: 1280px){
+  h1 {
+    font-family: LatoBold,sans-serif;
+    font-size: 46px;
+    line-height: 65px;
+  }
+
+  h2 {
+    font-family: LatoBold,sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  h3 {
+    font-family: LatoSemiBold,sans-serif;
+    font-size: 38px;
+    line-height: 55px;
+  }
+
+  h4 {
+    font-family: LatoSemiBold,sans-serif;
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  h5 {
+    font-family: LatoSemiBold,sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+  }
+
+  h6 {
+    font-family: LatoSemiBold,sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .text {
+    color: rgba(51, 26, 47, 0.8);
+    font-family: LatoRegular,sans-serif;
+    font-size: 16px;
+    line-height: 160%;
+  }
+}
+
+@media(max-width: 576px){
+  h1 {
+    font-family: LatoBold,sans-serif;
+    font-size: 30px;
+    line-height: 150%;
+  }
+
+  h2 {
+    font-family: LatoBold,sans-serif;
+    font-size: 28px;
+    line-height: 150%;
+  }
+
+  h3 {
+    font-family: LatoSemiBold,sans-serif;
+    font-size: 26px;
+    line-height: 150%;
+  }
+
+  h4 {
+    font-family: LatoSemiBold,sans-serif;
+    font-size: 25px;
+    line-height: 150%;
+  }
+
+  h5 {
+    font-family: LatoSemiBold,sans-serif;
+    font-size: 19px;
+    line-height: 150%;
+  }
+
+  h6 {
+    font-family: LatoSemiBold,sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .text {
+    color: rgba(51, 26, 47, 0.8);
+    font-family: LatoRegular,sans-serif;
+    font-size: 16px;
+    line-height: 160%;
+  }
+}
+
+@media(max-width: 360px) {
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
